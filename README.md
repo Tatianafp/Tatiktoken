@@ -2,11 +2,11 @@
 
 A custom implementation of Byte Pair Encoding (BPE) tokenization algorithm, inspired by OpenAI's GPT tokenizer architecture, developed as part of a Natural Language Processing course at University of Brasília (UnB).
 
-## 🎯 Overview
+## Overview
 
 This project reproduces the BPE algorithm demonstrated in Andrej Karpathy's video [Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE), applying it to a comprehensive text dataset to understand practical text compression and subword tokenization in NLP systems.
 
-## 🔧 Technical Architecture
+## Technical Architecture
 
 ### Core Components
 
@@ -39,11 +39,11 @@ Parallel testing framework for tokenizer validation across multiple text samples
 - **`run.ipynb`**: Jupyter notebook demonstrating BPE application on the provided dataset with detailed analysis
 - **`requirements.txt`**: Python dependencies list
 
-## 📊 Dataset
+## Dataset
 
 The corpus consists of multiple JSON files available [here](https://unbbr-my.sharepoint.com/:u:/g/personal/thiagodepaulo_unb_br/ETRbkBjaKihNmsQI0eWq9RkB3I9tE-SluKccadGOFJYqmA?e=V9k4Vb). The tokenizer processes BPE across all files in the collection.
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 
 - **Algorithm Implementation**: Byte Pair Encoding from scratch
 - **Parallel Processing**: Multiprocessing for efficient batch tokenization
@@ -51,12 +51,12 @@ The corpus consists of multiple JSON files available [here](https://unbbr-my.sha
 - **NLP Fundamentals**: Text compression, subword tokenization, vocabulary building
 - **Code Organization**: Modular design with separation of concerns
 
-## 📦 Installation
+## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-## 💡 Usage Example
+## Usage Example
 ```python
 from tatiktoken import Tokenizer
 
@@ -71,7 +71,7 @@ token_ids = tokenizer.encode("Hello, world!")
 original_text = tokenizer.decode(token_ids)
 ```
 
-## 🎓 Academic Context
+## Academic Context
 
 **Course**: Natural Language Processing  
 **Institution**: University of Brasília (UnB)  
@@ -80,3 +80,4 @@ original_text = tokenizer.decode(token_ids)
 ---
 
 *Part of my undergraduate Computer Science coursework at UnB, exploring foundational NLP techniques used in state-of-the-art language models.*
+
